@@ -1,0 +1,9 @@
+id,city,ward,category,people_affected,severity,vulnerability,wait_hours,weather_risk,poverty_index,repeated_reports,priority_score,source
+REQ-1001,Mumbai,Kurla L,Disaster,420,10,9,5,10,8,12,98,WhatsApp
+REQ-1002,Mumbai,Dharavi,Health,85,9,10,18,3,9,5,88,Field App
+REQ-1003,Pune,Yerawada,Education,60,5,6,72,1,7,3,52,CSV
+REQ-1004,Delhi,Yamuna Pushta,Food,1200,8,8,9,6,8,9,91,OCR
+REQ-1005,Bengaluru,K R Puram,Shelter,240,7,8,14,5,6,6,79,Voice
+REQ-1006,Chennai,Velachery,Disaster,310,9,8,3,9,7,8,93,WhatsApp
+REQ-1007,Jaipur,Sanganer,Employment,44,4,5,120,0,6,2,41,Excel
+REQ-1008,Kolkata,Garden Reach,Senior Care,72,8,10,26,4,8,4,86,Field App

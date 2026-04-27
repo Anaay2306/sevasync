@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #f8f7f2;
+}
+
+.dark {
+  color-scheme: dark;
+  background: #07110f;
+}
+
+* {
+  box-sizing: border-box;
+  border-radius: 0 !important;
+}
+
+body {
+  margin: 0;
+  font-family: "Aptos", "Segoe UI Variable", "Inter", system-ui, sans-serif;
+  background:
+    linear-gradient(135deg, rgba(15, 118, 110, 0.08) 0 1px, transparent 1px 18px),
+    linear-gradient(180deg, #fbfaf6 0%, #eef5f2 48%, #f8f7f2 100%);
+  color: #17201c;
+  overflow-x: hidden;
+}
+
+.dark body {
+  background:
+    linear-gradient(135deg, rgba(45, 212, 191, 0.08) 0 1px, transparent 1px 18px),
+    linear-gradient(180deg, #07110f 0%, #0d1f1b 48%, #091310 100%);
+  color: #f3f7f4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.glass {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.7));
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(23, 32, 28, 0.08);
+}
+
+.dark .glass {
+  background: linear-gradient(180deg, rgba(12, 24, 21, 0.92), rgba(9, 19, 16, 0.78));
+  border-color: rgba(213, 232, 225, 0.14);
+}
+
+.map-grid {
+  background-image:
+    linear-gradient(rgba(23, 32, 28, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(23, 32, 28, 0.08) 1px, transparent 1px);
+  background-size: 34px 34px;
+}
+
+.headline {
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: 0;
+}
+
+.relief-surface {
+  background:
+    linear-gradient(120deg, rgba(15, 118, 110, 0.16), transparent 30%),
+    repeating-linear-gradient(145deg, rgba(23, 32, 28, 0.08) 0 1px, transparent 1px 18px),
+    linear-gradient(135deg, #f8f7f2, #dfeee8);
+}
+
+.dark .relief-surface {
+  background:
+    linear-gradient(120deg, rgba(45, 212, 191, 0.12), transparent 30%),
+    repeating-linear-gradient(145deg, rgba(213, 232, 225, 0.08) 0 1px, transparent 1px 18px),
+    linear-gradient(135deg, #091310, #12352f);
+}
+
+.signal-line {
+  background-image: linear-gradient(90deg, #0f766e, #2563eb, #e11d48);
+}
+
+.phone-visual,
+.phone-visual * {
+  border-radius: revert-layer !important;
+}
+
+.phone-shell {
+  border-radius: 24px !important;
+}
+
+.phone-screen {
+  border-radius: 20px !important;
+}
+
+.phone-pill {
+  border-radius: 6px !important;
+}
+
+.phone-action {
+  border-radius: 10px !important;
+}
+
+.dark .text-ink,
+.dark .text-ink\/70,
+.dark .text-ink\/68,
+.dark .text-ink\/65,
+.dark .text-ink\/62,
+.dark .text-ink\/60,
+.dark .text-ink\/58,
+.dark .text-ink\/55,
+.dark .text-ink\/50,
+.dark .text-ink\/45 {
+  color: rgba(243, 247, 244, 0.82);
+}
+
+.dark .bg-white,
+.dark .bg-white\/90,
+.dark .bg-white\/80,
+.dark .bg-white\/75,
+.dark .bg-white\/70 {
+  background-color: rgba(9, 19, 16, 0.86);
+}
+
+.dark .bg-field {
+  background-color: #142621;
+}
+
+.dark .bg-ink {
+  background-color: #d5e8e1;
+}
+
+.dark .text-white {
+  color: #07110f;
+}
+
+.dark .border-ink\/15,
+.dark .border-ink\/10,
+.dark .border-ink {
+  border-color: rgba(213, 232, 225, 0.18);
+}
+
+.app-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(23, 32, 28, 0.38) transparent;
+}
+
+.app-scrollbar::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+
+.app-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(23, 32, 28, 0.38);
+}

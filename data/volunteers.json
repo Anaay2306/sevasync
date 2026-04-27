@@ -1,0 +1,50 @@
+[
+  {
+    "id": "VOL-201",
+    "name": "Aarav Menon",
+    "city": "Mumbai",
+    "verifiedSkills": ["First Aid", "Driving", "Flood Rescue", "Logistics"],
+    "languages": ["Hindi", "Marathi", "English"],
+    "availabilityHours": 8,
+    "reliabilityScore": 94,
+    "missionsCompleted": 41,
+    "certifications": ["Red Cross First Aid", "SevaSync Flood Response Verified"],
+    "trustBadge": "Crisis Ready"
+  },
+  {
+    "id": "VOL-202",
+    "name": "Sana Qureshi",
+    "city": "Mumbai",
+    "verifiedSkills": ["Nursing", "First Aid", "Counseling", "Senior Care"],
+    "languages": ["Hindi", "Marathi", "Urdu"],
+    "availabilityHours": 5,
+    "reliabilityScore": 91,
+    "missionsCompleted": 34,
+    "certifications": ["BSc Nursing", "SevaSync Medical Camp Verified"],
+    "trustBadge": "Lead"
+  },
+  {
+    "id": "VOL-203",
+    "name": "Ishita Rao",
+    "city": "Pune",
+    "verifiedSkills": ["Teaching", "Childcare", "Translation", "Event Management"],
+    "languages": ["Marathi", "Hindi", "English"],
+    "availabilityHours": 6,
+    "reliabilityScore": 87,
+    "missionsCompleted": 22,
+    "certifications": ["SevaSync Teaching Foundations"],
+    "trustBadge": "Reliable"
+  },
+  {
+    "id": "VOL-204",
+    "name": "Kabir Batra",
+    "city": "Delhi",
+    "verifiedSkills": ["Food Distribution", "Driving", "Inventory", "Logistics"],
+    "languages": ["Hindi", "Punjabi", "English"],
+    "availabilityHours": 10,
+    "reliabilityScore": 89,
+    "missionsCompleted": 30,
+    "certifications": ["Commercial Driving", "SevaSync Logistics Verified"],
+    "trustBadge": "Lead"
+  }
+]
